@@ -31,6 +31,7 @@ generaltoolbar=1
 confirm_drag_and_drop=1
 
 [HISTORY]
+open=evince:
 run=
 
 [KEYBINDINGS]
@@ -130,7 +131,7 @@ xterm=urxvt
 
 [LEFT PANEL]
 type_size=201
-deldate_size=150
+deldate_size=200
 origpath_size=200
 liststyle=0
 attr_size=201
@@ -147,16 +148,16 @@ name_size=401
 hiddenfiles=1
 
 [SETTINGS]
+show_pathlinker=1
 iconpath=/usr/share/xfe/icons/gnomeblue-theme
 basecolor=#ede9e3
 time_format=%x %X
 single_click=0
-relative_resize=1
+wheellines=5
 smooth_scroll=1
 use_clearlooks=1
-wheellines=5
 tiptime=10000
-show_pathlinker=1
+relative_resize=1
 tippause=500
 save_win_pos=0
 file_tooltips=1
@@ -345,7 +346,7 @@ odf=smath,smath,smath;OpenDocument Formula;odf_32x32.png;odf_16x16.png;;
 ott=swriter,swriter,swriter;OpenDocument Template Text;odt_32x32.png;odt_16x16.png;;
 docx=swriter,swriter,swriter;Word OOXML Document;doc_32x32.png;doc_16x16.png;;
 htm=firefox,firefox,xfwrite;Hyper Text;html_32x32.png;html_16x16.png;;
-pdf=xpdf,xpdf,xournal;PDF Document;pdf_32x32.png;pdf_16x16.png;;
+pdf=evince,xpdf,xournal;PDF Document;pdf_32x32.png;pdf_16x16.png;;
 ctd=cherrytree,cherrytree,cherrytree;CherryTree Document;text_32x32.png;text_16x16.png;;
 sdc=scalc,scalc,scalc;StarCalc 5.0 Document;sxc_32x32.png;sxc_16x16.png;;
 sda=sdraw,sdraw,sdraw;StarDraw 5.0 Document;sxd_32x32.png;sxd_16x16.png;;
