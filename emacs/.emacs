@@ -65,3 +65,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(default ((t (:inherit nil :stipple nil :background "#0c1021" :foreground "Grey" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 100 :width normal :foundry "unknown" :family "DejaVu Sans Mono")))))
+
+;; Whitespace-mode
+(global-set-key (kbd "C-x w") 'whitespace-mode)
+(setq whitespace-style (quote (spaces tabs newline space-mark tab-mark newline-mark)))
