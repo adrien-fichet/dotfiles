@@ -149,3 +149,5 @@ bindsym $mod+semicolon exec amixer set Master 10%-
 
 # Lock screen
 bindsym $mod+o exec i3lock -c 000000 -e
+
+hide_edge_borders both
