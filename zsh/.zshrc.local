@@ -2,3 +2,5 @@ xset b off
 export PATH=~/bin:$PATH
 alias sleeplock='sudo pm-suspend && i3lock -e -c 000000'
 alias dropsync='dropbox start && watch dropbox status && dropbox stop'
+alias shutnow='sudo shutdown -h now'
+
