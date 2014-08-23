@@ -152,3 +152,4 @@ bindsym $mod+o exec i3lock -c 000000 -e
 
 hide_edge_borders both
 exec --no-startup-id nm-applet
+exec --no-startup-id nitrogen --restore
