@@ -6,11 +6,12 @@
 
 ;; Tabs = 4 spaces
 (setq standard-indent 4)
-(setq-default indent-tabs-mode nil)
-(setq-default c-basic-offset 4)
 (setq-default tab-width 4)
-(global-set-key (kbd "TAB") 'self-insert-command)
-(global-set-key (kbd "RET") 'newline-and-indent)
+(setq-default indent-tabs-mode nil)
+(setq tab-stop-list (number-sequence 4 200 4))
+(setq-default c-basic-offset 4)
+(global-set-key (kbd "TAB") 'tab-to-tab-stop)
+(define-key global-map (kbd "RET") 'newline-and-indent)
 
 ;; No backups
 (setq make-backup-files nil)
