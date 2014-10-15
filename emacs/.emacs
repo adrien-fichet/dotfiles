@@ -70,3 +70,9 @@
 ;; Whitespace-mode
 (global-set-key (kbd "C-x w") 'whitespace-mode)
 (setq whitespace-style (quote (spaces tabs newline space-mark tab-mark newline-mark)))
+
+;; IDO
+(require 'ido)
+(setq ido-enable-flex-matching t)
+(setq ido-everywhere t)
+(ido-mode 1)
