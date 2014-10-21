@@ -144,8 +144,8 @@ bar {
 
 # Sound
 bindsym $mod+m exec amixer set Master toggle
-bindsym $mod+comma exec amixer set Master 10%+
-bindsym $mod+semicolon exec amixer set Master 10%-
+bindsym $mod+comma exec amixer set Master 5%+
+bindsym $mod+semicolon exec amixer set Master 5%-
 
 # Lock screen
 bindsym $mod+o exec i3lock -c 000000 -e
