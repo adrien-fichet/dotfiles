@@ -37,7 +37,8 @@
 (eval-after-load "color-theme"
   '(progn
      (color-theme-initialize)
-     (color-theme-charcoal-black)))
+     (color-theme-dark-laptop)))
+;     (color-theme-charcoal-black)))
 
 ;; Mardown mode
 (autoload 'markdown-mode "markdown-mode" "Major mode for editing Markdown files" t)
