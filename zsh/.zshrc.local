@@ -1,11 +1,10 @@
-xset b off
-xset s off
 export PATH=~/bin:$PATH
 alias sleeplock='sudo pm-suspend && i3lock -e -c 000000'
 alias dropsync='dropbox start && watch dropbox status && dropbox stop'
 alias shutnow='sudo shutdown -h now'
 alias echoip='echo $(wget -q -O - http://ipecho.net/plain)'
 alias lass='ls --color=always -lah | less -R'
-alias checkupdates='sudo aptitude update && sudo aptitude upgrade -sy'
+alias checkupdates='sudo apt update && sudo apt list --upgradable'
 alias tcmount='sudo truecrypt -t -k "" --protect-hidden=no'
 alias tcumount='sudo truecrypt -d'
+export EDITOR=nano
