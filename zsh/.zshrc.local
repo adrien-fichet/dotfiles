@@ -7,4 +7,9 @@ alias lass='ls --color=always -lah | less -R'
 alias checkupdates='sudo apt update && sudo apt list --upgradable'
 alias tcmount='sudo truecrypt -t -k "" --protect-hidden=no'
 alias tcumount='sudo truecrypt -d'
-export EDITOR=nano
+export EDITOR=vim
+
+xset s off
+xset s noblank
+xset -dpms
+
