@@ -1,6 +1,6 @@
 export PATH=~/bin:$PATH
 alias sleeplock='sudo pm-suspend && i3lock -e -c 000000'
-alias dropsync='dropbox start && watch dropbox status && dropbox stop'
+alias dropsync='touch ~/Dropbox/data/* && dropbox start && watch dropbox status && dropbox stop'
 alias shutnow='sudo shutdown -h now'
 alias echoip='echo $(wget -q -O - http://ipecho.net/plain)'
 alias lass='ls --color=always -lah | less -R'
@@ -8,3 +8,8 @@ alias checkupdates='sudo apt update && sudo apt list --upgradable'
 alias tcmount='sudo truecrypt -t -k "" --protect-hidden=no'
 alias tcumount='sudo truecrypt -d'
 export EDITOR=vim
+
+function fsize() {
+  printf '\33]50;%sd\007' "xft:Droid Sans Mono:pixelsize=${1}:antialias=true:hinting=true"
+}
+
